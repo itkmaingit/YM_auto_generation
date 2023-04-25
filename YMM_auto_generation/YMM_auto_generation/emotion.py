@@ -13,8 +13,6 @@ def emotion(name, client):
     print("")
     print("---------------emotion.py-------------------")
 
-    API_key = "dad10cd5b97f39fb"
-    API_Endpoint = "https://ai-api.userlocal.jp/text-emotion/basic-emotions"
 
     # EXCELファイルを開く．excel_sizeには最大列の番号を代入．
     wb = opl.load_workbook(
